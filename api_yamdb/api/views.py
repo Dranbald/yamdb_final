@@ -9,18 +9,16 @@ from rest_framework.filters import SearchFilter
 from rest_framework.pagination import LimitOffsetPagination
 from rest_framework.response import Response
 from rest_framework_simplejwt.tokens import AccessToken
-
 from reviews.models import Categories, Genres, Review, Title, User
+
 from .filters import TitlesFilter
-from .permissions import (
-    AdminOnly, AdminModerAuthorOrReadOnly, IsAdminOrReadOnly
-)
-from .serializers import (
-    CategoriesSerializer, CommentsSerializers, GenresSerializer,
-    ReviewsSerializers, SignUpSerializer, TitlesGetSerializer,
-    TitlesPostSerializer, TokenSerializer, UserOrReadOnlySerializer,
-    UserSerializer
-)
+from .permissions import (AdminModerAuthorOrReadOnly, AdminOnly,
+                          IsAdminOrReadOnly)
+from .serializers import (CategoriesSerializer, CommentsSerializers,
+                          GenresSerializer, ReviewsSerializers,
+                          SignUpSerializer, TitlesGetSerializer,
+                          TitlesPostSerializer, TokenSerializer,
+                          UserOrReadOnlySerializer, UserSerializer)
 
 
 class ReviewsViewSet(viewsets.ModelViewSet):
