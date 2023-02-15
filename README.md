@@ -1,6 +1,6 @@
 ![yamdb_workflow](https://github.com/Dranbald/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
-# Проект YaMDb
+# Api для проекта YaMDb
 
 ## О проекте
 
