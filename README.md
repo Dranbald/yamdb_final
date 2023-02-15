@@ -49,9 +49,9 @@ DB_PORT=5432
 ## Запуск приложения в контейнерах
 #### 1. Клонировать репозиторий:
 
-> <sub> https://github.com/Dranbald/infra_sp2 </sub>  
+> <sub> https://github.com/Dranbald/yamdb_final </sub>  
 
-> <sub> cd infra_sp2/infra </sub>
+> <sub> cd yamdb_final/infra </sub>
 
 #### 2. Запуск docker-compose:
 
